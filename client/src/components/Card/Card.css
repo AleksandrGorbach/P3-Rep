@@ -70,14 +70,12 @@
 	}
 }
 .job, .type, .description {
-	padding: 5x;
+
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: bold;
 	position: relative;
-	top: 17px;
 }
 
 .budget {
-	padding: 15px;
 	font-weight: bold;
 }
