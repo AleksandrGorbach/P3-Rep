@@ -40,6 +40,7 @@ export default function Card(props) {
     
     const handleSubmit = async (e) => {
         e.preventDefault()
+        console.log(e)
         if(props.user.id === e.target.parentElement.accessKey) {
          if(window.confirm("Are you sure you want to delete the job post?")) {
         handleDelete(e)
