@@ -1,5 +1,7 @@
 # Skill-Bid
 
+[Live Version](https://awesome-jepsen-f2cb4f.netlify.app/)
+
 ## Overview
 A web based application that allows users to list a service/need and have potential freelance workers bid on their project/listing.
 A homepage that displays all active listings and has a filter/search to sort for more specific items based on the users capabilities.
