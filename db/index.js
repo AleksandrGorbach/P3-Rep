@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const MONGODB_URI =
   process.env.PROD_MONGODB || "mongodb://localhost:27017/skillBidDatabase";
 
-const whitelist = ["https://6111b6e0f39f0b000782f529--awesome-jepsen-f2cb4f.netlify.app"];
+const whitelist = ["https://skillzbid.netlify.app"];
 const corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
